@@ -2,6 +2,7 @@
 *.pkl
 *.bk
 *.bin
+data/
 
 .ipynb_checkpoints/
 
