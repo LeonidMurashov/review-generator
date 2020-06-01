@@ -11,21 +11,21 @@
 
 Для интерпретации результатов был разработан алгоритм изображения деревьев всевозможных вариантов развития текста.  
 
-[Посмотреть .ipynb](ngram.html)  
+*[Красивая версия ngram.ipynb](ngram-stuff/ngram.pdf)*  
 
 Отзывы:  
-**this iron is good . yet** , if i were showing off cameras , i would choose something else like an epson . you get what
-![отзыв об утюге]("ngram-stuff\demo.png")
+>**this iron is good . yet** , if i were showing off cameras , i would choose something else like an epson . you get what
+![отзыв об утюге](ngram-stuff/demo.png)
 
 Широкие деревья с множеством опций:  
 
-**good book . perfect story** ... : i am a graduate of the u.s.m.m.a. , engineer and major , u.s.army , ret . in england  
-**good book . perfect story** to open up discussion in the classroom . avoid this .   
-**good book . perfect story** ... : i thought it was a parody , i ca n't understand . and you ca n't go on  
-**good book . perfect story** ... : i deleted this after several chapters . the number of programmable options was nowhere near that of the  
+>**good book . perfect story** ... : i am a graduate of the u.s.m.m.a. , engineer and major , u.s.army , ret . in england  
+>**good book . perfect story** to open up discussion in the classroom . avoid this .   
+>**good book . perfect story** ... : i thought it was a parody , i ca n't understand . and you ca n't go on  
+>**good book . perfect story** ... : i deleted this after several chapters . the number of programmable options was nowhere near that of the  
 
-[alt text]("ngram-stuff\4_gram.svg")  
-[alt text]("ngram-stuff\4_gram2.svg")  
+[дерево отзыва 1](ngram-stuff/4_gram.svg)  
+[дерево отзыва 2](ngram-stuff/4_gram2.svg)  
 
 ## Машинный перевод
 Задачу генерации отзывов по короткому описанию можно свести к задаче машинного перевода. Используем модель и статьи [Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/abs/1508.04025v5).  
