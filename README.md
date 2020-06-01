@@ -33,12 +33,12 @@
 В данном подходе с целью уменьшения пространства действий будем использовать отзывы из того же датасета, но из категории видео игры. В данных содержится название игры и заголовок отзыва (часто он содержит главную мысль отзыва). Используем их как входные данные.  
 
 Примеры генерации:  
-"reviewtitle" является разделителем названия игры и заголовка отзыва.
+"reviewtitle" является разделителем названия игры и заголовка отзыва.  
 
->Input: <start> turtle reviewtitle i hate it <end>
->Predicted translation: i have to say that the <unk> is <unk> . i have to say that the <unk> is <unk> . i have to say that the <unk> is <unk> . i have to say that the <unk> is <unk> . i have to say that the <unk> is <unk> . i have to say that the <unk> is <unk> . i have to say that the <unk> is <unk> . i have to say that the <unk> is <unk> . i have to say that the <unk> is <unk> . i have to say that the <unk> is <unk> .   
+>Input: <start> turtle reviewtitle i hate it <end>  
+>Predicted translation: i have to say that the <unk> is <unk> . i have to say that the <unk> is <unk> . i have to say that the <unk> is <unk> . i have to say that the <unk> is <unk> . i have to say that the <unk> is <unk> . i have to say that the <unk> is <unk> . i have to say that the <unk> is <unk> . i have to say that the <unk> is <unk> . i have to say that the <unk> is <unk> . i have to say that the <unk> is <unk> .    
 
->Input: <start> game reviewtitle good game this is <end>
+>Input: <start> game reviewtitle good game this is <end>  
 >Predicted translation: i bought this game for my son . he loves it . <end>   
 
 Иногда модель выдаёт не лучший результат и не может остановиться. Имплементируем beam search.
